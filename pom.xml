@@ -33,6 +33,7 @@
         <mysql-connector-java.version>8.0.30</mysql-connector-java.version>
         <swagger-ui.version>3.0.3</swagger-ui.version>
         <fastjson.version>2.0.10</fastjson.version>
+        <version>4.1.68.Final</version>
     </properties>
 
     <dependencies>
@@ -126,6 +127,11 @@
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-all</artifactId>
+                <version>${netty.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

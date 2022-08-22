@@ -20,9 +20,11 @@
         <groupId>com.alibaba</groupId>
         <artifactId>fastjson</artifactId>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
     <dependency>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-data-redis</artifactId>
+        <groupId>io.netty</groupId>
+        <artifactId>netty-all</artifactId>
     </dependency>
+
 </dependencies>
 </project>
