@@ -1,0 +1,16 @@
+server:
+  port: 8080
+app:
+  env: dev
+  id: dataman
+swagger:
+  enable: true
+
+spring:
+  redis:
+    host: 42.192.17.48
+    port: 6379
+    password: a627459859
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
